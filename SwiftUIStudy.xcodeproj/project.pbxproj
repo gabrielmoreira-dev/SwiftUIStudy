@@ -17,6 +17,11 @@
 		89F738322A7622D800F9068D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F738312A7622D800F9068D /* Card.swift */; };
 		89F738342A76237A00F9068D /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F738332A76237A00F9068D /* Timer.swift */; };
 		89F738382A7623C900F9068D /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F738372A7623C900F9068D /* Title.swift */; };
+		89F7383A2A771DBC00F9068D /* PropertyWrappersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F738392A771DBC00F9068D /* PropertyWrappersView.swift */; };
+		89F7383D2A771F2D00F9068D /* ClampedValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7383C2A771F2D00F9068D /* ClampedValue.swift */; };
+		89F7383F2A772F0F00F9068D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F7383E2A772F0F00F9068D /* HeaderView.swift */; };
+		89F738422A77348200F9068D /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F738412A77348200F9068D /* ApplicationData.swift */; };
+		89F738462A7735D200F9068D /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F738452A7735D200F9068D /* Form.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		89F738312A7622D800F9068D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		89F738332A76237A00F9068D /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		89F738372A7623C900F9068D /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		89F738392A771DBC00F9068D /* PropertyWrappersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappersView.swift; sourceTree = "<group>"; };
+		89F7383C2A771F2D00F9068D /* ClampedValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClampedValue.swift; sourceTree = "<group>"; };
+		89F7383E2A772F0F00F9068D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		89F738412A77348200F9068D /* ApplicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
+		89F738452A7735D200F9068D /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,9 +148,12 @@
 		89F738302A76227C00F9068D /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				89F738402A77347600F9068D /* Data */,
 				89F738362A7623BC00F9068D /* Modifiers */,
 				89F738352A7623AF00F9068D /* Views */,
+				89F7383B2A771F1700F9068D /* Wrappers */,
 				89F738072A75E45B00F9068D /* ComponentsView.swift */,
+				89F738392A771DBC00F9068D /* PropertyWrappersView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -149,7 +162,9 @@
 			isa = PBXGroup;
 			children = (
 				89F738312A7622D800F9068D /* Card.swift */,
+				89F7383E2A772F0F00F9068D /* HeaderView.swift */,
 				89F738332A76237A00F9068D /* Timer.swift */,
+				89F738452A7735D200F9068D /* Form.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +175,22 @@
 				89F738372A7623C900F9068D /* Title.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		89F7383B2A771F1700F9068D /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				89F7383C2A771F2D00F9068D /* ClampedValue.swift */,
+			);
+			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		89F738402A77347600F9068D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				89F738412A77348200F9068D /* ApplicationData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,9 +325,14 @@
 			files = (
 				89F738382A7623C900F9068D /* Title.swift in Sources */,
 				89F738082A75E45B00F9068D /* ComponentsView.swift in Sources */,
+				89F7383D2A771F2D00F9068D /* ClampedValue.swift in Sources */,
+				89F738422A77348200F9068D /* ApplicationData.swift in Sources */,
 				89F738322A7622D800F9068D /* Card.swift in Sources */,
 				89F738062A75E45B00F9068D /* SwiftUIStudyApp.swift in Sources */,
 				89F738342A76237A00F9068D /* Timer.swift in Sources */,
+				89F738462A7735D200F9068D /* Form.swift in Sources */,
+				89F7383A2A771DBC00F9068D /* PropertyWrappersView.swift in Sources */,
+				89F7383F2A772F0F00F9068D /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
