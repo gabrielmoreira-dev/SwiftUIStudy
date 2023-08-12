@@ -1,9 +1,12 @@
 import SwiftUI
 
 struct PropertyWrappersView: View {
-    @ClampedValue private var value: Int = 0
+    @State @ClampedValue private var value = 0
     @ObservedObject var appData: ApplicationData
     @State private var titleInput: String = String()
+    @State private var toggleState: Bool = true
+    @State private var sliderValue: Float = 5
+    @State private var stepperValue: Int = 0
     @Environment(\.colorScheme) var mode
     
     var body: some View {
@@ -19,9 +22,15 @@ struct PropertyWrappersView: View {
                 .font(.system(size: 50))
                 .foregroundColor(mode == .dark ? .yellow : .blue)
                 .symbolVariant(mode == .dark ? .fill : .circle)
+            Button("Value: \(value)", action: updateValue)
+                .buttonStyle(.borderedProminent)
+                .controlSize(.large)
+            Toggle(isOn: $toggleState) { Text(toggleState ? "On" : "Off") }
+            ProgressView(value: sliderValue, total: 10)
+            Slider(value: $sliderValue, in: 0...10)
+            Stepper("Counter: \(stepperValue)", value: $stepperValue, in: 0...10)
             Spacer()
-        }
-        .padding()
+        }.padding()
     }
     
     private func updateTitle() {
@@ -29,6 +38,10 @@ struct PropertyWrappersView: View {
             appData.title = titleInput
             titleInput = String()
         }
+    }
+    
+    private func updateValue() {
+        self.value += 1
     }
 }
 

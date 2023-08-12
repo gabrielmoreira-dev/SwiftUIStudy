@@ -10,7 +10,7 @@ struct Form: View {
         VStack {
             TextField(placeholder, text: $input)
                 .textFieldStyle(.roundedBorder)
-            Button(action: action, label: { Text(buttonTitle) })
+            Button(buttonTitle, action: action)
                 .padding(.bottom)
         }
     }
