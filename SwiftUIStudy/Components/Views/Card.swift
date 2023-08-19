@@ -3,7 +3,7 @@ import SwiftUI
 struct Card<Content: View>: View {
     let height: CGFloat
     @ViewBuilder var content: () -> Content
-    
+
     var body: some View {
         ZStack {
             Color(red: 0.9, green: 0.9, blue: 0.9)

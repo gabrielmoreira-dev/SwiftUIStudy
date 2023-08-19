@@ -3,7 +3,7 @@ import SwiftUI
 struct ComponentsView: View {
     @ScaledMetric var cardHeight = 200
     let showInfoIcon = true
-    
+
     @ViewBuilder
     var infoView: some View {
         if showInfoIcon {
@@ -14,7 +14,7 @@ struct ComponentsView: View {
             Text("Information")
         }
     }
-    
+
     @ViewBuilder
     var cardView: some View {
         Card(height: cardHeight) {
@@ -26,7 +26,7 @@ struct ComponentsView: View {
             }
         }
     }
-    
+
     var body: some View {
         ZStack {
             Image("beach")

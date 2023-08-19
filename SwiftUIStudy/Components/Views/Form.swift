@@ -5,7 +5,7 @@ struct Form: View {
     let placeholder: String
     let buttonTitle: String
     let action: () -> Void
-    
+
     var body: some View {
         VStack {
             TextField(placeholder, text: $input)

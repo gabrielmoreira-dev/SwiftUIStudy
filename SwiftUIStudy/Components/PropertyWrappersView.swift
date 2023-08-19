@@ -8,7 +8,7 @@ struct PropertyWrappersView: View {
     @State private var sliderValue: Float = 5
     @State private var stepperValue: Int = 0
     @Environment(\.colorScheme) var mode
-    
+
     var body: some View {
         VStack {
             HeaderView(title: $appData.title)
@@ -32,14 +32,14 @@ struct PropertyWrappersView: View {
             Spacer()
         }.padding()
     }
-    
+
     private func updateTitle() {
         if !titleInput.isEmpty {
             appData.title = titleInput
             titleInput = String()
         }
     }
-    
+
     private func updateValue() {
         self.value += 1
     }

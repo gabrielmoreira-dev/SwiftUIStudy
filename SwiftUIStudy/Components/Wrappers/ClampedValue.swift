@@ -5,7 +5,7 @@ struct ClampedValue {
     var storedValue: Int = 0
     let min = 0
     let max = 255
-    
+
     var wrappedValue: Int {
         get {
             storedValue
@@ -20,7 +20,7 @@ struct ClampedValue {
             }
         }
     }
-    
+
     init(wrappedValue: Int) {
         self.wrappedValue = wrappedValue
     }

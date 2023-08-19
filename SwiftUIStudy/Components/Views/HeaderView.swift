@@ -2,7 +2,7 @@ import SwiftUI
 
 struct HeaderView: View {
     @Binding var title: String
-    
+
     var body: some View {
         Text(title)
             .padding(10)
