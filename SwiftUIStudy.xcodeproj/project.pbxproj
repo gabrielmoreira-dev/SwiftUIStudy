@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89733E352A9072AF0038AAC9 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89733E342A9072AF0038AAC9 /* ScrollableView.swift */; };
 		89F738062A75E45B00F9068D /* SwiftUIStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F738052A75E45B00F9068D /* SwiftUIStudyApp.swift */; };
 		89F738082A75E45B00F9068D /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F738072A75E45B00F9068D /* ComponentsView.swift */; };
 		89F7380A2A75E45D00F9068D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F738092A75E45D00F9068D /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89733E342A9072AF0038AAC9 /* ScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
 		89F738022A75E45B00F9068D /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F738052A75E45B00F9068D /* SwiftUIStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyApp.swift; sourceTree = "<group>"; };
 		89F738072A75E45B00F9068D /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89733E332A9072610038AAC9 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				89733E342A9072AF0038AAC9 /* ScrollableView.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
 		89F737F92A75E45B00F9068D = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				89F738302A76227C00F9068D /* Components */,
+				89733E332A9072610038AAC9 /* Lists */,
 				89F738052A75E45B00F9068D /* SwiftUIStudyApp.swift */,
 				89F738092A75E45D00F9068D /* Assets.xcassets */,
 				89F7380B2A75E45D00F9068D /* SwiftUIStudy.entitlements */,
@@ -354,6 +365,7 @@
 				89F738062A75E45B00F9068D /* SwiftUIStudyApp.swift in Sources */,
 				89F738342A76237A00F9068D /* Timer.swift in Sources */,
 				89F738462A7735D200F9068D /* Form.swift in Sources */,
+				89733E352A9072AF0038AAC9 /* ScrollableView.swift in Sources */,
 				89F7383A2A771DBC00F9068D /* PropertyWrappersView.swift in Sources */,
 				89F7383F2A772F0F00F9068D /* HeaderView.swift in Sources */,
 			);
