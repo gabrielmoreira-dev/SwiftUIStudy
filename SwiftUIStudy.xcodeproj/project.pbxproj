@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		89733E352A9072AF0038AAC9 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89733E342A9072AF0038AAC9 /* ScrollableView.swift */; };
+		89733E3D2A91BB8C0038AAC9 /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89733E3C2A91BB8C0038AAC9 /* ListsView.swift */; };
 		89F738062A75E45B00F9068D /* SwiftUIStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F738052A75E45B00F9068D /* SwiftUIStudyApp.swift */; };
 		89F738082A75E45B00F9068D /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F738072A75E45B00F9068D /* ComponentsView.swift */; };
 		89F7380A2A75E45D00F9068D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F738092A75E45D00F9068D /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		89733E342A9072AF0038AAC9 /* ScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
+		89733E3C2A91BB8C0038AAC9 /* ListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsView.swift; sourceTree = "<group>"; };
 		89F738022A75E45B00F9068D /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F738052A75E45B00F9068D /* SwiftUIStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyApp.swift; sourceTree = "<group>"; };
 		89F738072A75E45B00F9068D /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				89733E342A9072AF0038AAC9 /* ScrollableView.swift */,
+				89733E3C2A91BB8C0038AAC9 /* ListsView.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				89F738082A75E45B00F9068D /* ComponentsView.swift in Sources */,
 				89F7383D2A771F2D00F9068D /* ClampedValue.swift in Sources */,
 				89F738422A77348200F9068D /* ApplicationData.swift in Sources */,
+				89733E3D2A91BB8C0038AAC9 /* ListsView.swift in Sources */,
 				89F738322A7622D800F9068D /* Card.swift in Sources */,
 				89F738062A75E45B00F9068D /* SwiftUIStudyApp.swift in Sources */,
 				89F738342A76237A00F9068D /* Timer.swift in Sources */,

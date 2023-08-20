@@ -55,7 +55,7 @@ struct ScrollableView: View {
     }
 }
 
-struct ListsView_Previews: PreviewProvider {
+struct ScrollableView_Previews: PreviewProvider {
     static var previews: some View {
         ScrollableView()
     }
